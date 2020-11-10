@@ -38,4 +38,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build hanging-building.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build http://nappy-jar.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
