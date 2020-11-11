@@ -1,8 +1,12 @@
+import React from 'react';
+import './App.css'
+import ShowApp from './6reactrouter'
+
 
 function App() {
   return (
     <div>
-      <h1>Router3</h1>
+      <ShowApp />
     </div>
   );
 }
