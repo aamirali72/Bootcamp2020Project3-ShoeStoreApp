@@ -1,22 +1,27 @@
-import React, { Component } from 'react'
-import {NavLink } from "react-router-dom";
+import React from 'react'
+import { NavLink } from "react-router-dom";
+// import { HomeIcon } from '@material-ui/icons';
+import HomeIcon from "@material-ui/icons/HomeTwoTone";
+import { Container } from '@material-ui/core';
+import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
+import InfoIcon from '@material-ui/icons/Info';
+import './App.css'
 
-export default class Header extends Component {
-  render() {
-    return (
-      <div>
-        <ul>
-          <li>
-            <NavLink exact activeClassName="active" to="/">Home</NavLink>
-          </li>
-          <li>
-            <NavLink activeClassName="active" to="/about">About</NavLink>
-          </li>
-          <li>
-            <NavLink activeClassName="active" to="/users">Users</NavLink>
-          </li>
-        </ul>
-      </div>
-    );
-  }
+function Header() {
+  return (
+      <Container maxWidth='xl' className="headerInline" style={{backgroundColor: 'skyblue'}}>
+      <ul>
+        <li>
+          <NavLink exact activeClassName="active" to="/"><HomeIcon color="primary"/>Home</NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="active" to="/about"><InfoIcon color="primary"/>About</NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="active" to="/Product"><AddShoppingCartIcon color="secondary"/>Products</NavLink>
+        </li>
+      </ul>
+      </Container>
+  );
 }
+export default Header;

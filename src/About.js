@@ -5,7 +5,7 @@ function About() {
 
   const myFunc = () => {
     console.log("myFunc")
-    History.push('/Users')
+    History.push('/Product')
   }
   return (
     <div>
