@@ -6,7 +6,7 @@ import './App.css'
 
 function Productitem() {
   const { id } = useParams();
-  console.log(id)
+  console.log(id,'ff')
   const shoe = Shoes[id];
 
   if (!shoe)

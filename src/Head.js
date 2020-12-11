@@ -20,6 +20,9 @@ function Header() {
         <li>
           <NavLink activeClassName="active" to="/Product"><AddShoppingCartIcon color="secondary"/>Products</NavLink>
         </li>
+        <li>
+          <NavLink activeClassName="active" to="/contactus">Contact</NavLink>
+        </li>
       </ul>
       </Container>
   );

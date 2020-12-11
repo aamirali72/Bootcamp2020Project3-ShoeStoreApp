@@ -11,7 +11,7 @@ const styles = theme => ({
     paddingBottom: theme.spacing.unit * 2,
   },
   footer: {
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: 'skyblue',
     marginTop: theme.spacing.unit * 8,
     padding: `${theme.spacing.unit * 6}px 0`,
   }
@@ -24,7 +24,7 @@ function Footer(props) {
     <footer className={classes.footer}>
       <Paper className={classes.root} elevation={1}>
         <Typography variant="h5" component="h3">
-          React App with Material UI
+          abc
         </Typography>
         <Typography component="p">
           @2018 All right reserved
@@ -37,5 +37,4 @@ function Footer(props) {
 Footer.propTypes = {
   classes: PropTypes.object.isRequired,
 };
-
 export default withStyles(styles)(Footer);

@@ -6,6 +6,7 @@ import Products from './Product'
 import Productitem from './Productitem'
 import Home from './Home'
 import Footer from './Footer'
+import Contact from './contactus'
 // import Footer from './shared/footer'
 import P404 from './Page404'
 import history from './history'
@@ -20,6 +21,7 @@ export default function App() {
           <Route exact path="/Product" component={Products} />
           <Route exact path="/Product/:id" component={Productitem} />
           <Route exact path="/" component={Home} />
+          <Route exact path="/contactus" component={Contact} />
           <Route path='**'><P404 /></Route>
         </Switch>
         <Footer />

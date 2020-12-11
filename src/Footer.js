@@ -11,8 +11,7 @@ function Footer() {
             <h4>SHOE SHOW MEGA STORE!!</h4>
             <ul className="list-unstyled">
               <li>NOW OPEN!!</li>
-              <li>COME SEE ALL THEY HAVE TO OFFER!!
-</li>
+              <li>COME SEE ALL THEY HAVE TO OFFER!!</li>
               <li>9:AM TO 5:PM</li>
             </ul>
           </div>

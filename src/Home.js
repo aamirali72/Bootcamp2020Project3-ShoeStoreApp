@@ -1,11 +1,10 @@
 import React from 'react'
-import Carousel from './Carousel'
-import {Container} from '@material-ui/core'
+import Carouselauto from './Carouselauto'
 function Home() {
   return (
-    <Container>
-      <Carousel />
-    </Container>
+    <div>
+      <Carouselauto />
+    </div>
   )
 }
 export default Home

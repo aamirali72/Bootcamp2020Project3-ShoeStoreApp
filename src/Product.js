@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import Shoes from './shoes.json';
 import './App.css'
 
+// const abc= Object.entries(Shoes);
+
+// console.log(abc,'abc');
+
 function Products() {
   return (
     <div>
