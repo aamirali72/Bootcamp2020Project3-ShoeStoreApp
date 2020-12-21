@@ -1,6 +1,6 @@
 *{
-  box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 .bg-grey {
   background-color: grey;
@@ -11,15 +11,18 @@
 h1{
   color: blue;}
 
-.headerInline>ul>li{display: inline-block; padding: 20px; }
+.headerInline>ul>li{display: inline-block; padding: 15px;}
+
+.headerInline>ul>li>h3{margin-right: 510px;}
 
 .active{
   text-decoration: underline;
-  color: #000;
+  color:green;
   font-weight: 600active;
   text-decoration-color: brown;
   font-size: 5mm;
  }
+
 .productContainer {
      display: flex;
      flex-wrap: wrap;
@@ -41,11 +44,14 @@ h1{
   background-color: cornsilk;
   margin-top: 10px;
 }
-
 .main-footer{
      background-color: skyblue;
      position: relative;
      padding-top: .5cm;
      bottom: 0;
      width: 100%;
+}
+.contactDiv{
+     background-color: white;
+     text-align: center;
 }

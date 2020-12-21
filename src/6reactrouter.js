@@ -1,6 +1,7 @@
 import React from "react";
 import { Router, Route, Switch } from "react-router-dom"
 import Header from './Head'
+// import Header2 from "./header"
 import About from './About'
 import Products from './Product'
 import Productitem from './Productitem'

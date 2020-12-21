@@ -2,7 +2,6 @@ import React from 'react'
 import History from './history'
 
 function About() {
-
   const myFunc = () => {
     console.log("myFunc")
     History.push('/Product')
