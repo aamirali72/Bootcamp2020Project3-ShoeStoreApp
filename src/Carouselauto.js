@@ -29,11 +29,11 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.default,
   },
   img: {
-    height: 625,
+    height: 550,
     display: 'block',
-    maxWidth: 'auto',
     overflow: 'hidden',
     width: '100%',
+
   },
 }));
 
@@ -58,7 +58,7 @@ function SwipeableTextMobileStepper() {
   return (
     <div className={classes.root}>
       <Paper square elevation={0} className={classes.header}>
-        <Typography>{tutorialSteps[activeStep].name}</Typography>
+        <Typography color="primary">{tutorialSteps[activeStep].name}</Typography>
       </Paper>
       <AutoPlaySwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}

@@ -28,7 +28,7 @@ function Footer() {
             <ul className="list-unstyled">
               <li>Online shoe store based in karachi</li>
               <li><PhoneAndroidIcon color="primary" />+923332139467</li>
-              <li><ContactMailIcon color="primary" />Shop No A92 Madina Market Saddar</li>
+              <li><ContactMailIcon color="primary"/> Shop No A92 Madina Market Saddar</li>
             </ul>
           </div>
           {/* Colume2 */}
