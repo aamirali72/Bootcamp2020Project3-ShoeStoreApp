@@ -1,9 +1,13 @@
 import React from 'react';
+import Link from '@material-ui/core/Link'
 import './App.css'
 import History from './history'
 import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
 import Button from '@material-ui/core/Button';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import TwitterIcon from '@material-ui/icons/Twitter';
 
 function Footer() {
   const myFunc = () => {
@@ -15,7 +19,7 @@ function Footer() {
   const myAbout = () => {
     History.push('./About')
   }
-  const myContactus=()=>{
+  const myContactus = () => {
     History.push('./contactus')
   }
   return (
@@ -28,7 +32,13 @@ function Footer() {
             <ul className="list-unstyled">
               <li>Online shoe store based in karachi</li>
               <li><PhoneAndroidIcon color="primary" />+923332139467</li>
-              <li><ContactMailIcon color="primary"/> Shop No A92 Madina Market Saddar</li>
+              <li><ContactMailIcon color="action" /> Shop No A92 Madina Market Saddar</li>
+              <li>
+
+                <a href="https://www.facebook.com/aamiraliuss/?view_public_for=102508705112292" target="_blank" title="Goto Facebook Page Universal Software Solutions"><FacebookIcon color='primary' fontSize="large" /></a>
+                <LinkedInIcon color="primary" fontSize="large" />
+                <TwitterIcon color="primary" fontSize="large" />
+              </li>
             </ul>
           </div>
           {/* Colume2 */}
