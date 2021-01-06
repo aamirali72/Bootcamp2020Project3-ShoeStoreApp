@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from '@material-ui/core/Link'
 import './App.css'
 import History from './history'
 import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
@@ -34,8 +33,7 @@ function Footer() {
               <li><PhoneAndroidIcon color="primary" />+923332139467</li>
               <li><ContactMailIcon color="action" /> Shop No A92 Madina Market Saddar</li>
               <li>
-
-                <a href="https://www.facebook.com/aamiraliuss/?view_public_for=102508705112292" target="_blank" title="Goto Facebook Page Universal Software Solutions"><FacebookIcon color='primary' fontSize="large" /></a>
+                <a href="https://www.facebook.com/aamiraliuss/?view_public_for=102508705112292" target="_blank" rel="noopener noreferrer" title="Goto Facebook Page Universal Software Solutions"><FacebookIcon color='primary' fontSize="large" /></a>
                 <LinkedInIcon color="primary" fontSize="large" />
                 <TwitterIcon color="primary" fontSize="large" />
               </li>
@@ -46,21 +44,20 @@ function Footer() {
             <h4>Quick Link</h4>
             <ul className="list-unstyled">
               <li>
-                <Button color="secondary" size="small" onClick={myHome}>Home</Button>
+                <Button style={{ justifyContent: "right" }} color="black" size="small" onClick={myHome}  >Home</Button>
               </li>
               <li>
-                <Button color="secondary" size="small" onClick={myFunc}>Products</Button>
+                <Button style={{ justifyContent: "right" }} color="black" size="small" onClick={myFunc}>Products</Button>
               </li>
               <li>
-                <Button color="secondary" size="small" onClick={myAbout}>About</Button>
+                <Button style={{ justifyContent: "right" }} color="black" size="small" onClick={myAbout}>About</Button>
               </li>
               <li>
-                <Button color="secondary" size="small" onClick={myContactus}>Contact Us</Button>
+                <Button style={{ justifyContent: "right" }} color="black" size="small" onClick={myContactus}>Contact Us</Button>
               </li>
             </ul>
           </div>
           {/* Colume1 */}
-
         </div>
       </div>
     </div>
