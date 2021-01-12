@@ -8,16 +8,9 @@
   list-style: none;
   margin: 5px 0;
 }
-h1{
-  color: blue;}
-
-.headerInline>ul>li{display: inline-block; padding: 15px;}
-
-.headerInline>ul>li>h3{margin-right: 510px;}
-
 .active{
   text-decoration: underline;
-  color:green;
+  color:white;
   font-weight: 600active;
   text-decoration-color: brown;
   font-size: 5mm;
