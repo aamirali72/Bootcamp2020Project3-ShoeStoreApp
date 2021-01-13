@@ -16,7 +16,7 @@ function Header() {
           <IconButton color="inherit" edge="start" aria-label="menu">
             <Menu />
           </IconButton>
-          <Typography variant='h4' style={{ flexGrow: 1 }}>Shoe Store</Typography>
+          <Typography variant='h5' style={{ flexGrow: 1 }}>Shoe Store</Typography>
           <Button color="inherit"><NavLink exact activeClassName="active" to="/"><HomeIcon />Home</NavLink></Button>
           <Button color="inherit"><NavLink activeClassName="active" to="/about"><InfoIcon />About</NavLink></Button>
           <Button color="inherit"><NavLink activeClassName="active" to="/Product"><AddShoppingCartIcon />Products</NavLink></Button>
